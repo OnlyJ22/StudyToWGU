@@ -541,3 +541,396 @@ RENAME TO coolArtists;
 * `DROP`: Remove tables and their data completely
 * DDL defines structure — not data values themselves
 
+Here's the **fully corrected version** of the lesson with the **proper main header** and all subsequent sections formatted as clean subsections under it:
+
+---
+
+### 🧠 Section 5: SQL DML Commands — SELECT, INSERT, UPDATE & DELETE
+
+#### ✅ What is DML?
+
+**Data Manipulation Language (DML)** refers to a set of SQL commands used to **modify data** within existing database structures — but **not** to alter the structure itself. DML includes:
+
+* `SELECT` – retrieve data
+* `INSERT` – add new data
+* `UPDATE` – modify existing data
+* `DELETE` – remove data
+
+---
+
+#### 🔍 `SELECT` Command
+
+Used to **query and retrieve** data from one or more tables.
+
+```sql
+SELECT artistName, genre, country
+FROM tblArtist
+WHERE country = 'Canada';
+```
+
+* `WHERE` filters results to specific conditions.
+* Always end with a `;` in many SQL environments to execute properly.
+
+---
+
+#### ➕ `INSERT` Command
+
+Used to **add a new row** of data into a table.
+
+```sql
+INSERT INTO tblArtist (artistName, genre, country)
+VALUES ('Boston', 'Rock', 'US');
+```
+
+* The order of columns must match the order of values.
+* Data types must match the column definitions.
+
+---
+
+#### ✏️ `UPDATE` Command
+
+Used to **modify existing data** in one or more rows.
+
+```sql
+UPDATE tblArtist
+SET country = 'Canada'
+WHERE artistName = 'Rush';
+```
+
+* Be sure to use `WHERE` to avoid updating all rows unintentionally.
+
+---
+
+#### ❌ `DELETE` Command
+
+Used to **remove data** from a table.
+
+```sql
+DELETE FROM tblArtist
+WHERE genre = 'Heavy Metal Disco';
+```
+
+* Use `WHERE` to delete specific rows.
+* Can include a `SELECT` subquery for advanced deletions.
+
+Got it — here's the **correctly fixed header version** with the structure you want:
+
+---
+
+### 🧠 Section 6: SQL `INSERT` Statement
+
+#### ✅ What is the `INSERT` Command?
+
+The `INSERT` statement in SQL is used to **add new data (records)** into an existing database table. It belongs to the **Data Manipulation Language (DML)** category, since it modifies data, not structure.
+
+---
+
+#### 🛠️ Basic Syntax
+
+```sql
+INSERT INTO table (column1, column2, ...)
+VALUES (value1, value2, ...);
+```
+
+* Column names and values **must match in order and data type**.
+* String values go in quotes; numbers do not.
+* Omitting a required field will trigger an error.
+
+---
+
+#### ⚠️ Tip:
+
+Fields like **auto-incremented primary keys** do not need to be (and shouldn’t be) included in the `INSERT` statement.
+
+---
+
+#### 📥 Inserting a Single Record
+
+```sql
+INSERT INTO tblAlbum (artistName, albumTitle, genre)
+VALUES ('Journey', 'Raised on Radio', 'Rock');
+```
+
+**Resulting Table:**
+
+| artistName | albumTitle      | genre |
+| ---------- | --------------- | ----- |
+| Journey    | Raised on Radio | Rock  |
+
+---
+
+#### 📥 Inserting Without All Columns
+
+If some fields are **optional (nullable)**, you can omit them:
+
+```sql
+INSERT INTO tblAlbum (artistName, albumTitle)
+VALUES ('Meat Loaf', 'Bat out of Hell');
+```
+
+**Resulting Table:**
+
+| artistName | albumTitle      | genre |
+| ---------- | --------------- | ----- |
+| Journey    | Raised on Radio | Rock  |
+| Meat Loaf  | Bat out of Hell | NULL  |
+
+---
+
+#### 📦 Inserting Multiple Records (from Another Table)
+
+```sql
+INSERT INTO tblBackup (artist, albumTitle, genre)
+SELECT artist, albumTitle, genre
+FROM customer
+WHERE tblBackup.customerID = customer.customerID;
+```
+
+* Copies matching records from one table (`customer`) to another (`tblBackup`).
+* Useful for **backups or audit logs**.
+
+
+### 🧠 Section 7: SQL `UPDATE` Statement
+
+#### ✅ What is the `UPDATE` Command?
+
+The `UPDATE` statement in SQL is used to **modify existing records** in a database table. It belongs to the **Data Manipulation Language (DML)** category, allowing changes to data based on specified conditions.
+
+---
+
+#### 🛠️ Basic Syntax
+
+```sql
+UPDATE table
+SET column1 = expression,
+    column2 = expression2
+[WHERE condition];
+````
+
+* `SET` assigns new values to one or more columns.
+* `WHERE` is **optional**, but omitting it updates **all rows**.
+* Use `WHERE` to prevent unintentional mass updates.
+
+---
+
+#### 🔁 Subquery Syntax
+
+```sql
+UPDATE table1
+SET column1 = (
+    SELECT expression
+    FROM table2
+    WHERE condition
+)
+[WHERE condition];
+```
+
+* Updates values in `table1` using data from `table2`.
+* Subquery must return a **single value** per affected row.
+
+---
+
+#### 📥 Example: Simple Update
+
+**Original `Flights` Table:**
+
+| Departing\_Airport | Arriving\_Airport | Flight\_Number | Depart\_Time | AM/PM |
+| ------------------ | ----------------- | -------------- | ------------ | ----- |
+| ORD                | LAX               | 145            | 7:45         | AM    |
+| ORD                | LAX               | 699            | 9:00         | PM    |
+| LAX                | ATL               | 725            | 10:00        | PM    |
+| ORD                | ATL               | 525            | 10:30        | PM    |
+
+```sql
+UPDATE Flights
+SET Depart_Time = '10:00'
+WHERE Flight_Number = 699;
+```
+
+**Updated Table:**
+
+| Departing\_Airport | Arriving\_Airport | Flight\_Number | Depart\_Time | AM/PM |
+| ------------------ | ----------------- | -------------- | ------------ | ----- |
+| ORD                | LAX               | 145            | 7:45         | AM    |
+| ORD                | LAX               | 699            | 10:00        | PM    |
+| LAX                | ATL               | 725            | 10:00        | PM    |
+| ORD                | ATL               | 525            | 10:30        | PM    |
+
+---
+
+#### 📦 Example: Update Using Subquery
+
+**Airport\_Names Table:**
+
+| Name        | Abbreviation |
+| ----------- | ------------ |
+| Los Angeles | LAX          |
+| O'Hare      | ORD          |
+| Atlanta     | ATL          |
+
+```sql
+UPDATE Flights
+SET Arriving_Airport = (
+    SELECT Name
+    FROM Airport_Names
+    WHERE Abbreviation = 'ATL'
+)
+WHERE Flight_Number = 725;
+```
+
+**Updated `Flights` Table:**
+
+| Departing\_Airport | Arriving\_Airport | Flight\_Number | Depart\_Time | AM/PM |
+| ------------------ | ----------------- | -------------- | ------------ | ----- |
+| ORD                | LAX               | 145            | 7:45         | AM    |
+| ORD                | LAX               | 699            | 9:00         | PM    |
+| LAX                | Atlanta           | 725            | 10:00        | PM    |
+| ORD                | ATL               | 525            | 10:30        | PM    |
+
+
+### 🧠 Section 8: SQL `DROP` vs `DELETE`
+
+#### ✅ What Do `DROP` and `DELETE` Do?
+
+* `DROP` **permanently removes** entire tables, columns, or views — including their structure and associated data.
+* `DELETE` **removes specific rows (records)** from a table, but **preserves the table structure**.
+
+---
+
+#### 🪓 `DROP` Command: Syntax & Usage
+
+**Drop an Entire Table/View:**
+
+```sql
+DROP TABLE table_name;
+DROP VIEW view_name;
+````
+
+> 💀 **Irreversible** — Deletes the structure and all data.
+
+---
+
+#### 🧱 Drop a Column (Uses `ALTER TABLE`)
+
+```sql
+-- SQL Server / Oracle
+ALTER TABLE table_name DROP COLUMN column_name;
+
+-- MySQL
+ALTER TABLE table_name DROP column_name;
+```
+
+* **Deletes the column and its data permanently**
+* Cannot drop a column that is a **primary key** or **foreign key** without removing dependencies first.
+
+**Example:**
+
+```sql
+-- Remove SSN column from customer_data
+ALTER TABLE customer_data DROP COLUMN SSN;
+-- MySQL version
+ALTER TABLE customer_data DROP SSN;
+```
+
+---
+
+#### ❌ Tip: `DROP COLUMN` ≠ `DELETE`
+
+* `DROP COLUMN` destroys the **data field**.
+* `DELETE` removes **data records (rows)** only.
+
+---
+
+#### 🧍‍♂️ Delete Rows with `DELETE`
+
+```sql
+DELETE FROM table_name WHERE condition;
+```
+
+* Requires `WHERE` to avoid deleting **all rows**.
+* Deletes only **specific records**.
+* **Can be rolled back** (if ROLLBACK is enabled in the DB session).
+
+**Example:**
+
+```sql
+DELETE FROM Customer_Table_2
+WHERE firstName = 'John' AND lastName = 'Doe';
+```
+
+* Removes **both John Doe records**.
+* Add more conditions (e.g., postal code) to be more specific.
+
+---
+
+#### 💥 Caution
+
+* Omitting `WHERE` in `DELETE` will remove **all rows**:
+
+  ```sql
+  DELETE FROM table_name;  -- Danger: wipes out table data
+  ```
+
+* `DELETE` cannot remove rows that violate **foreign key constraints**.
+
+* `DROP` operations are **irreversible** and will **destroy schema elements**.
+
+
+### 🧠 Section 9: SQL `DROP INDEX` and `DROP DATABASE`
+
+#### ✅ What is SQL?
+
+**Structured Query Language (SQL)** is a **command-oriented language** used to interact with relational databases — for tasks such as storing, searching, retrieving, and modifying data. Originally developed by IBM in the 1970s and commercialized by Oracle in 1979, SQL has become the industry standard.
+
+---
+
+#### 🗃️ What is a Database?
+
+A **database** is a structured collection of related data. It may store:
+
+* Contacts in your phone
+* Emails on your computer
+* Credit card transaction records
+
+---
+
+#### 🔢 What is an Index?
+
+An **index** is a sequence of values that creates a logical ordering of rows in a table without changing their physical layout.
+
+* Allows fast searching, sorting, and filtering.
+* E.g., a **last name index** helps sort records alphabetically without physically rearranging them.
+
+---
+
+#### 🗑️ What Do `DROP INDEX` and `DROP DATABASE` Do?
+
+| Command        | Effect                                 | Syntax                                |
+|----------------|----------------------------------------|----------------------------------------|
+| `DROP INDEX`   | Removes an index, not the data         | `DROP INDEX <table>.<index_name>;`     |
+| `DROP DATABASE`| Removes the entire database and data   | `DROP DATABASE <database_name>;`       |
+
+> ⚠️ Both commands are **destructive** and **permanent** — use with caution.
+
+---
+
+#### 🧱 Example: Drop an Index
+
+```sql
+DROP INDEX tblAlbum.dateModified;
+````
+
+* Removes the `dateModified` index from `tblAlbum`.
+* Reclaims the index's storage space.
+* **Does not delete table data**.
+
+---
+
+#### 💣 Example: Drop a Database
+
+```sql
+DROP DATABASE albumsBackup;
+```
+
+* Deletes the **entire `albumsBackup` database**, including all its tables and data.
+
