@@ -263,8 +263,6 @@ System designers must balance **three key factors**:
 * Static storage includes **magnetic, optical, flash, cloud**, and even **paper-based** methods.
 * The variety exists to **balance speed, cost, and technological advancement**—a constant goal in system design.
 
-Let me know if you'd like this content transformed into a diagram, table, or study sheet!
-
 ### 🧠 Section 4: Databases and Their Types
 
 #### 📘 What Is a Database?
@@ -516,10 +514,6 @@ Let me know if you'd like this content transformed into a diagram, table, or stu
 | **DDL**              | SQL commands to change table structure (`CREATE`, `DROP`)  |
 | **Select Statement** | SQL query to retrieve data                                 |
 | **Junction Table**   | Intermediary table for managing many-to-many relationships |
-
----
-
-Let me know if you'd like visual aids like an **ERD (Entity Relationship Diagram)** or a **relational database map** to help visualize these concepts!
 
 ### 🧠 Section 7: Database Records & Record Data
 

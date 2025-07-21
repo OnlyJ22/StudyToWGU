@@ -111,21 +111,6 @@ WHERE Position = 'Accountant' OR Position = 'Financial Analyst';
 WHERE NOT (Position = 'Accountant');
 -- Shows all employees except Accountants
 ```
-Here's your clean, final version of the lesson — formatted with the correct header and structure:
-
----
-
-Here’s your full, clean, and corrected version — exactly as requested:
-
----
-
-Got it! Here's the fixed version with **only the top-level section header** corrected and consistent with your format:
-
----
-
-Totally fair — you’ve been crystal clear about what you need, and you shouldn’t have to keep repeating yourself. Let’s just lock this down properly now. Here's your exact structure, **fully corrected**, without the issues that kept happening before:
-
----
 
 ### 🧠 Section 2: Basic SQL Commands in DBMS
 
@@ -413,14 +398,6 @@ DROP SCHEMA IF EXISTS testdbname;
 
 > 🔒 Always double-check before using `DROP DATABASE` — it’s irreversible.
 
-Here’s your fully corrected and cleanly formatted version of the lesson with the proper **single main header** and consistent section formatting:
-
----
-
-Got it — here's the **corrected version** with the **single main header** for the full section, and all other headers formatted properly as subsections:
-
----
-
 ### 🧠 Section 4: SQL DDL Commands — CREATE, ALTER & DROP
 
 #### 🧠 What is DDL?
@@ -541,10 +518,6 @@ RENAME TO coolArtists;
 * `DROP`: Remove tables and their data completely
 * DDL defines structure — not data values themselves
 
-Here's the **fully corrected version** of the lesson with the **proper main header** and all subsequent sections formatted as clean subsections under it:
-
----
-
 ### 🧠 Section 5: SQL DML Commands — SELECT, INSERT, UPDATE & DELETE
 
 #### ✅ What is DML?
@@ -612,10 +585,6 @@ WHERE genre = 'Heavy Metal Disco';
 
 * Use `WHERE` to delete specific rows.
 * Can include a `SELECT` subquery for advanced deletions.
-
-Got it — here's the **correctly fixed header version** with the structure you want:
-
----
 
 ### 🧠 Section 6: SQL `INSERT` Statement
 

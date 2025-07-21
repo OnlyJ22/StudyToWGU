@@ -95,8 +95,6 @@ WHERE Company = 'Study.com';
 * Use brackets for field names with **spaces/special characters**.
 * Clauses like `WHERE` and `ORDER BY` are **optional** but useful for precision.
 
-Let me know if you'd like practice problems or a syntax reference sheet.
-
 ### Section 2: Advanced SQL SELECT Statements
 
 **High-Yield Buzzwords:** `SELECT`, `DISTINCT`, `ORDER BY`, `WHERE`, `GROUP BY`, `HAVING`, `LEFT`, `LIKE`, `UPPER`, `TRIM`, `CONCAT`, `SUM`, `COUNT`, `AVG`, *scalar functions*, *aggregate functions*, *wildcards*
@@ -277,10 +275,6 @@ ORDER BY customerNumber;
 * Aggregate functions (`SUM`, `COUNT`, `AVG`) analyze numeric data.
 * `GROUP BY` organizes data for aggregates.
 * `HAVING` filters group-level results.
-
-Let me know if you'd like practice problems on any of these!
-Got it—I’ll revert to your specified format exactly, using `###` for headers and avoiding emojis or extraneous symbols. Let’s redo the last one properly:
-
 
 ### Section 3: SQL INSERT Statement
 
@@ -616,10 +610,6 @@ ORDER BY hire_date;
 * Default is ascending (`ASC`), use `DESC` for reverse order.
 * Multiple column sorting is allowed.
 * Can sort by column positions or even columns not listed in SELECT.
-
-Got it. Here's the corrected format:
-
----
 
 ### Section 7: SQL Functions
 

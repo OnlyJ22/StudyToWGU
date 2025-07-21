@@ -87,20 +87,6 @@ This interconnected design makes daily tasks seamless for both staff and users.
 * Real-world examples (libraries, hospitals, stores) show how **interconnected systems** support every role
 * **Manual methods can’t match** the speed and accuracy of a well-managed DBMS
 
-Got it. Here's the **corrected version** with proper headers, no extra flair, and section hierarchy exactly as you've been requesting — using `###` for main sections and `####` for subsections **only**:
-
----
-
-Here's your fully formatted, corrected version using the proper heading structure (`###` for main sections, `####` for subsections). No fluff — just clean, organized content:
-
----
-
-Perfect — now we’re locked in.
-
-Here’s the **fully corrected** version with your specified header:
-
----
-
 ### 🧠 Section 2: Selecting a Database Software
 
 #### What Is Database Software?
@@ -212,13 +198,6 @@ Selecting the right software requires evaluating how well it fits an organizatio
 * Tools like **MySQL** and **PostgreSQL** offer flexibility and scalability, while systems like **Oracle** serve large enterprises.
 
 * There is **no one-size-fits-all**; the right database depends on **current operations** and **future expansion plans**.
-Absolutely — here's your updated, **fully structured** version:
-
----
-
-Here’s the corrected version with the proper header formatting:
-
----
 
 ### 🧠 Section 3: Installing Microsoft SQL Server 2017 
 

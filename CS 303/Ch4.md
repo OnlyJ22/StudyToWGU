@@ -326,10 +326,6 @@ These applications require:
 | **Database Role**   | Store and retrieve user data and app content                          |
 | **BIS Impact**      | Web apps drive high infrastructure demand and influence system design |
 
-Got it—here’s the fixed version with the correct header formatting:
-
----
-
 ### 🧠 Section 5: Database Application Transaction Processing
 
 ---
