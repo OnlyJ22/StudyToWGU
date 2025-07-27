@@ -96,10 +96,6 @@ While pseudocode and algorithms are related, they’re not the same:
 * **Outputs**: What the program produces
 * **Pseudocode**: Semi-programming language used for outlining algorithms
 
-Understood. Here is your content rewritten to **match exactly** the structure and formatting style of your original example — with **a single section**, proper use of `####` subsections, bullet points, numbered lists, dividers, tables, and summary — as per your instructions.
-
----
-
 ### Section 2: Algorithm Analysis
 
 #### Definition
@@ -554,10 +550,6 @@ int FibonacciSeries(int num)
 * **Exponential Time – O(2ⁿ)**: Time doubles with each input increase
 * **Recursive Tree**: Visual of how recursive calls branch in exponential patterns
 
-Here is your content, reformatted to follow your exact instructional structure — a **single titled section**, with organized `####` subheadings, code snippets, bullet lists, calculations, and a concise summary and key terms list.
-
----
-
 ### Section 5: Arrays in Java
 
 #### Definition
@@ -704,10 +696,6 @@ Arrays in Java are of **fixed size**. To grow an array:
 * **Two-Dimensional Array**: An array of arrays, resembling a table structure
 * **Resizing**: Creating a new array and copying elements to increase capacity
 * **Performance**: Fast for access and traversal, but slow for insertion/deletion or resizing
-
-Here is your content reformatted to follow your exact instructional style — using a **single section**, clearly structured `####` subheadings, Java code formatting, bullet points, and a detailed summary with key terms.
-
----
 
 ### Section 6: Working with Arrays in Java
 
@@ -890,9 +878,6 @@ Position for number 42 is: 6
 * **Arrays.toString()**: Converts array to a string for display
 * **Arrays.binarySearch()**: Searches for a value in a **sorted** array
 * **Partial Sort**: Sorting only a portion of an array by range
-Here is your content reformatted into your consistent instructional style — using a **single titled section**, structured `####` subheadings, code formatting, step-by-step explanations, and a clear summary and key terms list.
-
----
 
 ### Section 7: Bubble Sort in Java
 
@@ -1020,10 +1005,6 @@ Sorted mySimpleArray:
 * **Pass**: A full iteration through the array in bubble sort
 * **Swap**: Exchanging values to order elements
 * **Time Complexity – O(n²)**: Performance measure for bubble sort due to nested loops
-
-Here is your content fully reformatted into your requested instructional structure — a **single titled section**, with organized `####` subheadings, Java code formatting, step-by-step logic, and a detailed summary and key terms list.
-
----
 
 ### Section 8: Selection Sort in Java
 
@@ -1159,9 +1140,6 @@ The sorted array is:
 * **In-Place Algorithm**: Sorting done without using extra space
 * **Time Complexity – O(n²)**: Quadratic runtime due to nested loops
 * **Space Complexity – O(1)**: Constant memory usage
-Here is your content reformatted in your consistent instructional structure — one titled section, organized `####` subheadings, clear algorithm breakdown, Java code formatting, performance notes, and a well-structured summary and key terms section.
-
----
 
 ### Section 9: Merge Sort in Java
 
@@ -1331,9 +1309,6 @@ Sorted array
 * **Time Complexity – O(n log n)**: Predictable performance across best, average, and worst cases
 * **Space Complexity – O(n)**: Extra memory used for merging
 * **Stability**: Maintains the order of equal elements
-Here is your content reformatted into your consistent instructional format — as a **single titled section**, with structured `####` subheadings, clean code presentation, algorithm logic, performance details, and a well-organized summary and key terms list.
-
----
 
 ### Section 10: Quick Sort in Java
 
@@ -1497,9 +1472,6 @@ Below is the sorted list.
 * **Time Complexity – O(n log n)**: Average and best case
 * **Worst Case – O(n²)**: When pivot choice results in unbalanced partitions
 * **Internal Sorting**: Sorting done entirely in memory
-Here is your content, fully reformatted into your consistent instructional style — using a **single titled section**, structured with `####` subheadings, properly formatted Java code, performance notes, and a concise lesson summary with key terms.
-
----
 
 ### Section 11: Sorting Arrays Using Insertion Sort in Java
 
@@ -1632,9 +1604,6 @@ Time taken: 3263179 ns
 * **Time Complexity – O(n²)**: Algorithm's performance grows quadratically with input size
 * **In-Place Sorting**: Sort that uses no extra memory
 * **Shift Operation**: Moving elements to make room for insertion
-Here is your content formatted using your consistent instructional structure — a **single titled section**, with organized `####` subheadings, clearly explained algorithm logic, Java code formatting, performance analysis, real-world applications, and a detailed summary with key terms.
-
----
 
 ### Section 12: Binary Search in Java
 

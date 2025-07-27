@@ -171,10 +171,6 @@ public class Main {
 
 * Arrays are **powerful tools** in the Java programming toolbox.
 
-Absolutely — here are your notes, formatted **exactly** like your original style:
-
----
-
 ### Section 2: Java Arrays
 
 #### What Is a Java Array?
@@ -381,13 +377,6 @@ for (int row = 0; row < table.length; row++) {
 * A **3D array** introduces a third dimension, requiring three loops.
 * Example use: GPS tracking with `(x, y)` coordinates in a 2D array.
 * Beyond 3D arrays, dimensionality becomes **difficult to manage and rarely useful** in real-world Java programs.
-
----
-
-Let me know when you're ready for the next one.
-Here is the **corrected format** for your **Dynamic Arrays in Java** notes, fully aligned with your preferred style:
-
----
 
 ### Section 4: Dynamic Arrays in Java
 
@@ -688,10 +677,6 @@ payRates[15] = 203.34; // Error: Index 15 is out of bounds (0–14 are valid)
 
 * Java does **not support dynamic arrays** — consider other data structures (like **ArrayList**) for that purpose.
 
-Here are your notes on **A Programmer’s Life and Java Arrays**, formatted exactly like your previous sections:
-
----
-
 ### Section 6: A Programmer’s Life – Java Arrays
 
 #### What Is a Java Array?
@@ -788,10 +773,6 @@ public class Main {
 * **ArrayLists** are more flexible and commonly used when dynamic sizing is needed.
 * Understanding the difference between **length (arrays)** and **size (ArrayLists)** is key for working with collections in Java.
 
-Here are your notes on **Java Arrays: Lesson Overview & Code**, formatted in your standard style:
-
----
-
 ### Section 8: Lesson Overview & Knowledge Required
 
 #### Skills Required
@@ -886,9 +867,6 @@ for(int i = 0; i < salaries.length; i++) {
 * Indexing starts at **0**.
 * Elements can be **assigned manually** or **looped through** for automation.
 * This lesson focused on **creating**, **filling**, and **verifying** a `double[]` array of salary values.
-Absolutely — here is your **Matrices** lesson, formatted exactly to your specifications:
-
----
 
 ### Section 10: Matrices
 
@@ -1069,10 +1047,6 @@ Multiplying A and B equals:
   * **Columns in Matrix A = Rows in Matrix B**
 
 * Always validate dimensions before multiplying.
-
-Here are your notes on **ArrayList in Java**, formatted exactly as per your structure:
-
----
 
 ### Section 11: ArrayList
 

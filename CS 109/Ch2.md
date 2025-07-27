@@ -1296,5 +1296,3 @@ This loop generates and prints **2,499 random numbers** between 1 and 100. If an
 * Adding 1 adjusts the range to **1 through n**.
 * Java's random numbers are **good for general programming**, not for cryptography.
 * You can loop through random number generation to **test for randomness** or generate multiple values.
-
-Let me know if you want visual examples or to extend this into random floats, booleans, or bounded random values.

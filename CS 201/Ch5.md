@@ -224,9 +224,6 @@ As the dataset grows in size — for example, to millions of entries — the per
 #### Lesson Summary
 
 A **sequential search** checks each element in an array or list one by one. It works on both sorted and unsorted data. The performance of this algorithm is classified as **O(n)**, meaning it scales linearly with the size of the input. While acceptable for small lists, this method becomes inefficient for large datasets due to its potential to require every element to be checked.
-Here is your content on **Exponential Search**, rewritten using your precise format structure — no extra commentary or marketing banners, and styled consistently with the previous topics you provided:
-
----
 
 ### Section 3: Exponential Search
 

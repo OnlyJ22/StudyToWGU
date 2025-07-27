@@ -194,11 +194,6 @@ print("Hello, World!")
 * Loops and conditionals provide **control and flexibility**.
 * Variables let data **persist and evolve** during program execution.
 
----
-Here is your content fully formatted in clean, copy-paste-ready **Markdown** following the exact structure you've been using:
-
----
-
 ### Section 3: Comments in Java Programming
 
 #### What Are Comments?
@@ -334,11 +329,6 @@ documentation comment */
   * **Documentation comments**: `/** doc comment */`
 * **Javadoc** uses documentation comments to generate **external documentation** for Java programs.
 * Well-commented code improves collaboration, debugging, and long-term usability.
-
-
-Here is your content cleanly formatted in Markdown — ready to copy and paste directly into your `.md` file:
-
----
 
 ### Section 4: Requirements Gathering in Software Development
 

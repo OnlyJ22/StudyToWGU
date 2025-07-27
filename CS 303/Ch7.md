@@ -274,10 +274,6 @@ DROP TABLE employee;
 * ✅ `JOIN` merges related data from multiple tables.
 * ✅ Commands like `INSERT`, `UPDATE`, `DELETE`, `TRUNCATE`, `DROP`, and `CREATE` provide full control over data and database structure.
 
-Here’s your **fully corrected** and **properly formatted** version with the correct **single header** for the whole section and clean structure throughout:
-
----
-
 ### 🧠 Section 3: Creating & Deleting Databases in SQL
 
 #### 🧱 Creating a Database

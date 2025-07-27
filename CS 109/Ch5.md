@@ -117,9 +117,6 @@ try {
 * Arguments are accessed using `args[index]`.
 * Compile using **`javac`**, run using **`java`**, and provide **arguments inline**.
 * Always **validate** and **check for errors** when using command-line input.
-Here are your notes on **User Input in Java**, formatted according to your preferred layout:
-
----
 
 ### Section 2: User Input
 
@@ -443,10 +440,6 @@ hello class
 * Use **BufferedReader** for multi-threaded applications and performance.
 * Both use **System.in** for input and must be closed properly.
 * Always check or handle exceptions for unexpected input.
-
-Here is the lesson formatted exactly according to your preferred structure:
-
----
 
 ### Section 4: Standard Output
 
@@ -882,9 +875,6 @@ After reviewing this lesson, you should be able to:
 
 * Identify the **elements** of user interfaces (WIMP).
 * Explain how GUIs are **designed and tested** to improve software usability.
-Here is your lesson on **The Graphical User Interface in Java**, formatted using your preferred structure:
-
----
 
 ### Section 7: The Graphical User Interface in Java
 
@@ -977,13 +967,6 @@ Java GUI development is built on two main **class libraries**:
   * **AWT** (older, OS-dependent)
   * **Swing** (modern, flexible, and platform-independent)
 * Understanding and using these libraries allows you to build **effective, user-friendly applications**.
-
----
-
-Let me know what topic you'd like formatted next!
-Here is your content on **Lines & Shapes in Java**, formatted according to your preferred structure:
-
----
 
 ### Section 8: Lines & Shapes in Java GUI
 
@@ -1149,10 +1132,6 @@ g2.drawPolygon(s);
   * Anti-aliasing for smoother edges
 * All shapes require defining **coordinates and dimensions**, and are rendered in the `paint` method.
 
-Here is your content on **The `JFrame` Class in Java**, formatted using your preferred layout:
-
----
-
 ### Section 9: What is `JFrame`
 
 #### What Is a `JFrame`?
@@ -1256,13 +1235,6 @@ public class Main extends JFrame {
   * You must **set visibility** explicitly using `setVisible(true)`.
 * `JFrame` supports the addition of multiple GUI components and is highly customizable.
 * **Constructors** initialize the frame, while **methods** adjust properties after creation.
-
----
-
-Let me know the next topic you'd like formatted!
-Here is your content on **Java `JLabel`**, formatted using your preferred structure:
-
----
 
 ### Section 10: The `JLabel`: Uses & Examples
 
@@ -1384,10 +1356,6 @@ public class JFrameExample {
 * Although **not editable by the user**, label content can be **updated programmatically** using `setText()`.
 * `JLabel`s are critical in building **user-friendly** and **intuitive** interfaces.
 
-Here is your content on **Layout Manager in Java**, formatted using your preferred structure:
-
----
-
 ### Section 11: Layout Manager in Java
 
 #### Why Use a Layout Manager?
@@ -1488,9 +1456,6 @@ frame.add(new JButton("Center"), BorderLayout.CENTER);
   * `BoxLayout`, `GroupLayout`, `SpringLayout`, and `ScrollPaneLayout`
 * Using layout managers is crucial to designing **responsive, maintainable** GUIs.
 * Though **manual positioning** is possible, layout managers are **preferred** for better control and maintainability.
-Here is your content on **Java Form Elements**, formatted using your preferred structure:
-
----
 
 ### Section 12: Java Form Elements
 
@@ -1638,13 +1603,6 @@ b.setToolTipText("Click to Submit");
 * `setToolTipText` improves **usability** with hover-based tips.
 * All form elements are placed on a **`JPanel`**, which is added to a **`JFrame`**.
 * `setBounds(x, y, width, height)` is used to **position and size** these elements.
-
----
-
-Let me know the next topic you'd like formatted!
-Here is your content on **Event-Driven Programming in Java**, formatted using your preferred structure:
-
----
 
 ### Section 13: Event-Driven Programming in Java
 
@@ -1811,10 +1769,6 @@ public class Main implements ItemListener {
 
   * `ActionListener` to respond to a button
   * `ItemListener` to respond to checkboxes
-
-Here is your content on **Graphical Tools in Java**, formatted using your preferred structure:
-
----
 
 ### Section 14: Graphical Tools in Java
 

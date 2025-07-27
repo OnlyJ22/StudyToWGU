@@ -145,10 +145,6 @@ This ensures **critical jobs finish on time** without disrupting the system.
 | **Priority Handling**  | High-priority jobs get more resources or skip the queue                 |
 | **Scheduling**         | Jobs are timed (e.g., daily/monthly) or based on specific triggers      |
 
-Here’s your corrected and cleanly formatted section using the proper heading structure (`###` for section headers, `####` for subsections):
-
----
-
 ### 🧠 Section 3: Transaction Processing Systems (TPS)
 
 #### 🔄 What Is a Transaction?

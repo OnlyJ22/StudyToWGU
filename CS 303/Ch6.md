@@ -333,11 +333,6 @@ Before installation, ensure:
 * As data complexity increases, a structured DBMS managed by a professional becomes **mission-critical** to organizational success.
 * Without proper database administration, data becomes disorganized, vulnerable, and inefficient to use — limiting business insight and agility.
 
-
-Here you go — fixed and formatted **properly using `###` for the main section and `####` for substeps**, just like you've specified:
-
----
-
 ### 🧠 Section 5: Installing MySQL Community Server on Windows
 
 ---
@@ -441,11 +436,6 @@ Here you go — fixed and formatted **properly using `###` for the main section 
 
 * Click **Execute** one final time to apply and finalize.
 
----
-
-Here’s your cleaned and properly formatted summary with the **correct header structure** you requested:
-
----
 
 ### 🧠 Section 6: Database Reporting
 

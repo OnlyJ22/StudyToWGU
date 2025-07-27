@@ -169,10 +169,6 @@ public class Main {
 * The **`main` method** is the **entry point** for every Java program.
 * Well-written methods increase **modularity**, **reusability**, and **readability**.
 
-Here is your content on the **Java Main Method**, properly formatted in the structured layout:
-
----
-
 ### Section 2: Main Method Structure
 
 ---
@@ -276,10 +272,6 @@ public static void main(String[] args) {
 * `args[]` stores **command-line arguments** passed to the program
 * This allows flexibility in configuring how the program behaves at runtime
 * Once all logic is done, the program exits by reaching the end of `main`
-
-Here is your lesson content on **Protecting Objects and Classes** formatted in the structured layout:
-
----
 
 ### Section 3: Protecting Objects and Classes
 
@@ -502,10 +494,6 @@ public boolean ExpiredCredential(int counter) {
 * Helps prevent **logic errors**, **security flaws**, and increases **code clarity**.
 * Start restrictive (`final`) and **relax only if needed**.
 
-Here is your content on **Static Methods in Java**, formatted in your requested structure:
-
----
-
 ### Section 5: Static Methods in Java
 
 #### What Is a Static Method?
@@ -610,10 +598,6 @@ public static void printMsg() {
   * Is best used for functionality **independent of object state**
 
 * Use static methods when you don’t need object-specific behavior.
-
-Here is your content on **Static vs Non-Static Methods in Java**, formatted in the structure you've requested:
-
----
 
 ### Section 6: Static vs Non-Static Methods
 
@@ -801,13 +785,6 @@ class HelloWorld {
   * Can access both static and instance members.
 * The `main` method is static to serve as the program's entry point.
 
----
-
-Let me know when you're ready for the next topic.
-Here is your content on **Modular & Object-Oriented Programming in Java**, formatted according to your requested structure:
-
----
-
 ### Section 7: Modular & Object-Oriented Programming
 
 ---
@@ -982,10 +959,6 @@ public static void main(String[] args) {
 * The **main method** is static and serves as the **entry point** for every Java program.
 * Java includes many **standard packages** for input/output, math, collections, and GUI functionality.
 
-Here is your content on **Passing Parameters and Arrays in Java**, formatted to your requested structure:
-
----
-
 ### Section 8: Passing Parameters and Arrays in Java
 
 ---
@@ -1147,13 +1120,6 @@ total=9
 
   * Use returned values for primitive types if you want changes retained.
   * Use caution when modifying arrays — changes affect the original.
-
----
-
-Let me know when you're ready for the next topic.
-Here is your content on **Recursion in Java**, formatted in your structured layout:
-
----
 
 ### Section 9: Recursion in Java
 
@@ -1433,7 +1399,3 @@ System.out.println(factorialIterative(3));
   * **Performance**
   * **Readability**
   * **Programmer preference**
-
----
-
-Let me know when you're ready for the next topic.

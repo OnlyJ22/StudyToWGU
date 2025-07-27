@@ -651,7 +651,3 @@ A company with offices in the U.S., UK, and Japan might:
 | **Data Warehouse**       | A system that integrates multiple databases for analysis and insights     |
 | **Distributed Database** | Databases stored across different locations but accessed as a single unit |
 | **Multi-user DBMS**      | Allows many users to work with the same data simultaneously               |
-
----
-
-Let me know which section's next.

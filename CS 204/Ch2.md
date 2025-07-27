@@ -1019,6 +1019,3 @@ name VARCHAR(15) NOT NULL,
 * SQL **constraints** enforce rules to ensure valid data entry.
 * Common types: `NOT NULL`, `UNIQUE`, `CHECK`, `DEFAULT`, `PRIMARY KEY`.
 * Proper use of constraints ensures high data integrity and reduces bugs or inconsistencies.
-
-Let me know if you want this adapted into a quick reference or table format.
-

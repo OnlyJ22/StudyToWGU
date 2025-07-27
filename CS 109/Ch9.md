@@ -1079,7 +1079,6 @@ public class Main {
   * **Remove**: `remove()` (throws) and `poll()` (safe)
 * Use **try-catch** blocks or `poll()` to handle empty queue scenarios safely.
 * Queues can be implemented using **arrays** or **ArrayLists**, depending on size constraints.
-Absolutely — here are your **fixed notes**, now formatted to **exactly** match your earlier sections like “Introduction to Programming” and “Doubly Linked Lists”:
 
 ### Section 7: Double-Ended Queues
 

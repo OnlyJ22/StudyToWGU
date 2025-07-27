@@ -176,10 +176,6 @@ public class Main {
 * `if/else` statements offer alternate paths.
 * Wrap input logic in a `try-catch` to handle missing or bad input.
 
----
-
-Let me know if you’d like me to reformat any of the previous lessons in this same structure.
-
 ### Section 3: The Switch Statement
 
 #### Tracks
