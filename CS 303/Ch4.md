@@ -245,10 +245,6 @@ A customer purchases a video game:
 | **System Types**         | Include order entry, accounting, purchasing, and inventory control       |
 | **TPS Role**             | Provides foundational data for more advanced systems (MIS, DSS)          |
 
-Here’s the updated section with correct formatting, using `###` for the main section and `####` for subsections:
-
----
-
 ### 🧠 Section 4: Web Applications & Their Role in Business Information Systems
 
 #### 🌐 What Is a Web Application?

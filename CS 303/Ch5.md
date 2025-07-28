@@ -601,10 +601,6 @@ Each **entity** becomes a table.
 
 > ✨ Designing a database is like planning a city: roads (relationships), buildings (tables), and rules (data types) must be laid out clearly **before** construction (data entry) begins.
 
-Here’s the **corrected version** with all heading levels fixed (`###` for main sections, `####` for sub-sections), and the unnecessary analogy and prompt removed at the end:
-
----
-
 ### 🧠 Section 7: Database Normalization & Design in DBMS 
 
 #### 📦 What Is a DBMS Table?
